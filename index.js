@@ -27,18 +27,70 @@ function results(json, target){
  tall.innerText = `${'Height: '}${json.height}${' Feet'}`;
  textDiv.appendChild(tall);
  textDiv.appendChild(mass);
+ 
+  } 
+
+function display_info(button, event){
+  event.preventDefault();
+  console.log(button);
+  switch(button){
+    case "btn1":
+      display_pokemon('cubone',"text");
+      break;
+      case"btn2":
+      display_pokemon("gengar",'text2');
+      break;
+      case"btn3":
+      display_pokemon('spoink','text3');
+      break;
+      case"btn4":
+      display_pokemon("duskull","text4");
+      break;
+    case"btn5":
+      display_pokemon('banette','text5');
+      break;
+      case"btn6":
+      display_pokemon("grimer",'text6');
+      break;
+    case"btn7":
+      display_pokemon('drowzee','text7');
+      break;
+    case"btn8":
+      display_pokemon("yamask","text8");
+      break;
+    case"btn9":
+      display_pokemon('lampent','text9');
+      break;
+    case"btn10":
+      display_pokemon("palossand","text10");
+      break;
+    case"btn11":
+      display_pokemon("drampa","text11");
+      break;
+
+
+
+
+
+
+
+
+  }
+
+//*display_pokemon('cubone',"text");
+
+
 }
-display_pokemon('cubone','text');
-display_pokemon("gengar",'text2');
-display_pokemon('spoink','text3');
-display_pokemon("duskull","text4");
-display_pokemon('banette','text5');
-display_pokemon("grimer",'text6');
-display_pokemon('drowzee','text7');
-display_pokemon("yamask","text8");
-display_pokemon('lampent','text9');
-display_pokemon("palossand","text10");
 
+const pokemon_name = document.querySelectorAll("button")
+console.log(pokemon_name);
+for ( p of pokemon_name){
+  p.addEventListener('click',(event)=>{
+    console.log(event.target.id);
+    display_info(event.target.id, event);
+  })
 
+}
+ 
 
 

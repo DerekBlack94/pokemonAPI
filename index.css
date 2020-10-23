@@ -12,11 +12,22 @@ body{
 
 }
 .jumbo{
-    font-family:spo ;
-    src: url('./assets/scary_halloween/spookyfont.ttf');
+    
     color: red;
     text-align: center;
+    font-size: 80px;
     
+}
+.display-4{
+    font-family: 'Creepster', cursive;
+    font-size: 100px;
+    
+}
+.lead{
+    color: rgb(196, 7, 7);
+    font-size: 30px;
+    margin-top: 340px;
+    font-family: 'Love Ya Like A Sister', cursive;
 }
 @font-face {
     font-family:spookyfont;
@@ -56,19 +67,21 @@ body{
       font-size: 25px;
   }
   .pokedex{
-      font-family:Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 15px;
-      color: teal;
+      font-family: 'Unna', serif;
+      font-size: 20px;
+      color: turquoise;
       margin: 15px;
   }
   .nameTag{
-      font-size: 50px;
+      font-family: 'Creepster', cursive;
+      font-size: 100px;
       color: red;
       text-align: center;
       
   }
   .underpokedex{
-      font-size: 17px;
+      font-size: 20px;
+      margin-bottom: 20px;
   }
   .rowTwo{
       background: url('./assets/gengar.png')no-repeat;
@@ -193,4 +206,18 @@ body{
     height: 100vh;
     background-position-x: center;
 
+}
+.button{
+    
+    position: relative; 
+    color: red;
+    left: 475px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.button:hover{
+    background-color: red;
+    color: white;
 }
