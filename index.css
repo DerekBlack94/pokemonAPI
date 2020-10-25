@@ -25,9 +25,23 @@ body{
 }
 .lead{
     color: rgb(196, 7, 7);
-    font-size: 30px;
-    margin-top: 340px;
+    font-size: 35px;
+    margin-top: 400px;
     font-family: 'Love Ya Like A Sister', cursive;
+}
+.button{
+    
+    position: relative; 
+    color: red;
+    left: 475px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.button:hover{
+    background-color: red;
+    color: white;
 }
 @font-face {
     font-family:spookyfont;
@@ -52,9 +66,21 @@ body{
   #text{
       color: white;
       font-size: 14px;
-      background-color: black;
+      background-color:black;
       text-align: center;
+      border-radius: 12px;
+      width: 50%;
+      position: relative;
+      left: 285px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+
       
+  }
+  #text:hover{
+      background-color: red;
+      transform: scale(1.75);
+
   }
   .wrapper{
       background-color: black;
@@ -72,12 +98,18 @@ body{
       color: turquoise;
       margin: 15px;
   }
+  .pokedex:hover{
+      transform: scale(1.25);
+  }
   .nameTag{
       font-family: 'Creepster', cursive;
       font-size: 100px;
       color: red;
       text-align: center;
       
+  }
+  .nameTag:hover{
+      transform: scale(2.0);
   }
   .underpokedex{
       font-size: 20px;
@@ -91,10 +123,23 @@ body{
 
   }
   #text2{
-      color: white;
-      font-size: 14px;
-      text-align: center;
-  }
+    color: white;
+    font-size: 14px;
+    background-color:black;
+    text-align: center;
+    border-radius: 12px;
+    width: 50%;
+    position: relative;
+    left: 285px;
+    margin-bottom: 30px;
+
+    
+}
+#text2:hover{
+    background-color: red;
+    transform: scale(1.5);
+
+}
   .rowThree{
       background: url('./assets/spoink.jpg')no-repeat;
       height: 100vh;
@@ -102,10 +147,23 @@ body{
       background-position-x: center;
   }
   #text3{
-      color: white;
-      font-size: 14px;
-      text-align: center;
-  }
+    color: white;
+    font-size: 14px;
+    background-color:black;
+    text-align: center;
+    border-radius: 12px;
+    width: 50%;
+    position: relative;
+    left: 285px;
+    margin-bottom: 30px;
+
+    
+}
+#text3:hover{
+    background-color: red;
+    transform: scale(1.5);
+
+}
   .rowFour{
       background: url('./assets/duskull.png')no-repeat;
       height: 100vh;
@@ -114,10 +172,23 @@ body{
 
   }
   #text4{
-      color: white;
-      font-size:14px ;
-      text-align: center;
-  }
+    color: white;
+    font-size: 14px;
+    background-color:black;
+    text-align: center;
+    border-radius: 12px;
+    width: 50%;
+    position: relative;
+    left: 285px;
+    margin-bottom: 30px;
+
+    
+}
+#text4:hover{
+    background-color: red;
+    transform: scale(1.5);
+
+}
   .rowFive{
       background: url('./assets/banette.jpg')no-repeat;
       background-size: contain;
@@ -126,10 +197,23 @@ body{
 
   }
   #text5{
-      color: white;
-      font-size: 14px;
-      text-align: center;
-  }
+    color: white;
+    font-size: 14px;
+    background-color:black;
+    text-align: center;
+    border-radius: 12px;
+    width: 50%;
+    position: relative;
+    left: 285px;
+    margin-bottom: 30px;
+
+    
+}
+#text5:hover{
+    background-color: red;
+    transform: scale(1.5);
+
+}
   .rowSix{
       background: url('./assets/grimer.jpg')no-repeat;
       background-size: contain;
@@ -138,10 +222,23 @@ body{
       
   }
   #text6{
-      color: white;
-      font-size: 14px;
-      text-align: center;
-  }
+    color: white;
+    font-size: 14px;
+    background-color:black;
+    text-align: center;
+    border-radius: 12px;
+    width: 50%;
+    position: relative;
+    left: 285px;
+    margin-bottom: 30px;
+
+    
+}
+#text6:hover{
+    background-color: red;
+    transform: scale(1.5);
+
+}
   .rowSeven{
       background: url('./assets/drowzee.png')no-repeat;
       background-size: contain;
@@ -151,15 +248,42 @@ body{
   }
       
 
-#text7{
+  #text7{
     color: white;
     font-size: 14px;
+    background-color:black;
     text-align: center;
+    border-radius: 12px;
+    width: 50%;
+    position: relative;
+    left: 285px;
+    margin-bottom: 30px;
+
+    
 }
+#text7:hover{
+    background-color: red;
+    transform: scale(1.5);
+
+}
+
 #text8{
     color: white;
     font-size: 14px;
+    background-color:black;
     text-align: center;
+    border-radius: 12px;
+    width: 50%;
+    position: relative;
+    left: 285px;
+    margin-bottom: 30px;
+
+    
+}
+#text8:hover{
+    background-color: red;
+    transform: scale(1.5);
+
 }
 .rowEight{
     background: url('./assets/yamask.jpg')no-repeat;
@@ -171,8 +295,20 @@ body{
 #text9{
     color: white;
     font-size: 14px;
+    background-color:black;
     text-align: center;
+    border-radius: 12px;
+    width: 50%;
+    position: relative;
+    left: 285px;
+    margin-bottom: 30px;
+
     
+}
+#text9:hover{
+    background-color: red;
+    transform: scale(1.5);
+
 }
 .rowNine{
     background: url('./assets/lampent.jpg')no-repeat;
@@ -184,8 +320,20 @@ body{
 #text10{
     color: white;
     font-size: 14px;
+    background-color:black;
     text-align: center;
+    border-radius: 12px;
+    width: 50%;
+    position: relative;
+    left: 285px;
+    margin-bottom: 30px;
+
     
+}
+#text10:hover{
+    background-color: red;
+    transform: scale(1.5);
+
 }
 .rowTen{
     background: url('./assets/palossand.jpg')no-repeat;
@@ -197,8 +345,20 @@ body{
 #text11{
     color: white;
     font-size: 14px;
+    background-color:black;
     text-align: center;
+    border-radius: 12px;
+    width: 50%;
+    position: relative;
+    left: 285px;
+    margin-bottom: 30px;
+
     
+}
+#text11:hover{
+    background-color: red;
+    transform: scale(1.5);
+
 }
 .rowEleven{
     background: url('./assets/drampa2.jpg')no-repeat;
@@ -207,17 +367,7 @@ body{
     background-position-x: center;
 
 }
-.button{
-    
-    position: relative; 
-    color: red;
-    left: 475px;
-    border-radius: 12px;
-    transition-duration: 0.4s;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-.button:hover{
-    background-color: red;
-    color: white;
+.bottom{
+    background-color: black;
+    height: 20vh;
 }
